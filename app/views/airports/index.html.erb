@@ -14,12 +14,7 @@
     <td><%= airport.iata %></td>
     <td><%= airport.stad %></td>
     <td><%= link_to 'Show', airport %></td>
-    <td><%= link_to 'Edit', edit_airport_path(airport) %></td>
-    <td><%= link_to 'Destroy', airport, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>
 
-<br />
-
-<%= link_to 'New Airport', new_airport_path %>
