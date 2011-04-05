@@ -1,4 +1,6 @@
 FlyYouFools::Application.routes.draw do
+  resources :airplanes
+
   resources :airports
 
   # The priority is based upon order of creation:
