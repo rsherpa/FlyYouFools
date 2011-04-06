@@ -1,4 +1,6 @@
 FlyYouFools::Application.routes.draw do
+  resources :robins
+
   resources :bookings
 
   resources :travelers
