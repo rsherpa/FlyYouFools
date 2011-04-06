@@ -1,4 +1,4 @@
-class Airplane < ActiveRecord::Basei
+class Airplane < ActiveRecord::Base
   has_many flights
 
   validates :name,  :presence => true,
