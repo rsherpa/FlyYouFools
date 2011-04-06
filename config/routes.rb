@@ -1,4 +1,6 @@
 FlyYouFools::Application.routes.draw do
+  resources :flights
+
   resources :airplanes
 
   resources :airports
