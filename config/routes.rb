@@ -1,14 +1,8 @@
 FlyYouFools::Application.routes.draw do
-  resources :robins
-
   resources :bookings
-
   resources :travelers
-
   resources :flights
-
   resources :airplanes
-
   resources :airports
 
   # The priority is based upon order of creation:
