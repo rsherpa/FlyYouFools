@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  flight_id: 1
+  name: MyString
+  personal_number: 1
+  mail: MyString
+  phone_number: MyString
+
+two:
+  flight_id: 1
+  name: MyString
+  personal_number: 1
+  mail: MyString
+  phone_number: MyString
