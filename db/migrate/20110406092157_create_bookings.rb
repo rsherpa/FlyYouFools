@@ -1,7 +1,6 @@
 class CreateBookings < ActiveRecord::Migration
   def self.up
     create_table :bookings do |t|
-      t.integer :flight_id
       t.string :name
       t.integer :personal_number
       t.string :mail
