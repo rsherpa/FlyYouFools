@@ -3,7 +3,7 @@
 <table>
   <tr>
     <th>Name</th>
-    <th>Peronal number</th>
+    <th>Personal number</th>
     <th></th>
     <th></th>
     <th></th>
@@ -12,7 +12,7 @@
 <% @travelers.each do |traveler| %>
   <tr>
     <td><%= traveler.name %></td>
-    <td><%= traveler.peronal_number %></td>
+    <td><%= traveler.personal_number %></td>
     <td><%= link_to 'Show', traveler %></td>
     <td><%= link_to 'Edit', edit_traveler_path(traveler) %></td>
     <td><%= link_to 'Destroy', traveler, :confirm => 'Are you sure?', :method => :delete %></td>
