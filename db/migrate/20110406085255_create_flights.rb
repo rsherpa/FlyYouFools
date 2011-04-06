@@ -6,7 +6,7 @@ class CreateFlights < ActiveRecord::Migration
       t.integer :duration
       t.integer :from
       t.integer :to
-      t.integer :airplane
+      t.integer :airplane_id
       t.integer :price
 
       t.timestamps

@@ -41,7 +41,7 @@ ActiveRecord::Schema.define(:version => 20110406092157) do
     t.integer  "duration"
     t.integer  "from"
     t.integer  "to"
-    t.integer  "airplane"
+    t.integer  "airplane_id"
     t.integer  "price"
     t.datetime "created_at"
     t.datetime "updated_at"
