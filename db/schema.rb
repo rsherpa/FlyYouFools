@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(:version => 20110406092157) do
   end
 
   create_table "bookings", :force => true do |t|
+    t.integer  "flight_id"
     t.string   "name"
     t.integer  "personal_number"
     t.string   "mail"
@@ -39,8 +40,8 @@ ActiveRecord::Schema.define(:version => 20110406092157) do
     t.string   "flight_no"
     t.datetime "departure_time"
     t.integer  "duration"
-    t.integer  "from"
-    t.integer  "to"
+    t.integer  "origin"
+    t.integer  "destination"
     t.integer  "airplane_id"
     t.integer  "price"
     t.datetime "created_at"

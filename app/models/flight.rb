@@ -1,19 +1,5 @@
 class Flight < ActiveRecord::Base
- belongs_to :airport,:foreign_key => "from"
- belongs_to :airport,:foreign_key => "to"
- belongs to :airplane
-
-  validates_presence_of :flight
-  validates_associated  :flight
-
-  validates :name, :presence => true,
-                   :length => { :minimum => 2 }
-  
-  validates_format_of :personal_number, :with =>/[0-9]{10}/
-
-  validates_format_of :mail, :with =>/^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$/
-
-  validates :phone_number, :presence => true,
-                           :length => { :minimum => 5 }  
-    
+  belongs_to :airport, :foreign_key => "origin"
+  belongs_to :airport, :foreign_key => "destination"
+  belongs_to :airplane
 end
