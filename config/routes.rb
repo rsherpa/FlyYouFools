@@ -1,4 +1,15 @@
 FlyYouFools::Application.routes.draw do
+  namespace :book do
+    # Directs /admin/products/* to Admin::ProductsController
+    # (app/controllers/admin/products_controller.rb)
+
+    get "destination"
+    get "dates"
+    get "travelers"
+    get "payment"
+    get "confirmation"
+  end
+
   resources :bookings
   resources :travelers
   resources :flights
