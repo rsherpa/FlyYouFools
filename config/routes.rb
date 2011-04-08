@@ -16,6 +16,8 @@ FlyYouFools::Application.routes.draw do
   resources :airplanes
   resources :airports
 
+  root :to => "book#destination"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
