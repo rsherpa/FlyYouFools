@@ -1,5 +1,5 @@
 class Traveler < ActiveRecord::Base
-  has_many :bookings
+  belongs_to :booking
 
   validates :name,  :presence => true,
                     :length => { :minimum => 2 }
