@@ -1,9 +1,0 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-
-one:
-  iata: MyString
-  stad: MyString
-
-two:
-  iata: MyString
-  stad: MyString
