@@ -3,17 +3,21 @@
 <table>
   <tr>
     <th>Iata</th>
-    <th>Stad</th>
-    <th></th>
-    <th></th>
-    <th></th>
+    <th>Lattitude</th>
+    <th>Longitude</th>
+    <th>Country</th>
+    <th>State</th>
+    <th>City</th>
   </tr>
 
 <% @airports.each do |airport| %>
   <tr>
     <td><%= airport.iata %></td>
-    <td><%= airport.stad %></td>
-    <td><%= link_to 'Show', airport %></td>
+    <td><%= airport.lat %></td>
+    <td><%= airport.lng %></td>
+    <td><%= airport.country %></td>
+    <td><%= airport.state %></td>
+    <td><%= airport.city %></td>
   </tr>
 <% end %>
 </table>
