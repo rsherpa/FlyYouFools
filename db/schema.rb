@@ -24,7 +24,6 @@ ActiveRecord::Schema.define(:version => 20110414101138) do
   end
 
   create_table "bookings", :force => true do |t|
-    t.integer  "flight_id"
     t.string   "name"
     t.integer  "personal_number"
     t.string   "mail"
