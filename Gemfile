@@ -7,10 +7,9 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'geokit'
 gem 'geokit-rails'
 
-group :development, :test do
-  gem 'ffaker'
-  gem 'machinist'
-end
+gem 'machinist', :group => [:test]
+gem 'populator', :group => [:development, :production]
+gem 'ffaker', :group => [:development, :test]
 
 # Use unicorn as the web server
 # gem 'unicorn'
