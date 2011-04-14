@@ -1,14 +1,14 @@
 class BookController < ApplicationController
-  def choose_destination
+  def destination
   end
 
-  def choose_dates
+  def dates
   end
 
-  def choose_travelers
+  def travelers
   end
 
-  def choose_payment
+  def payment
   end
 
   def confirmation
